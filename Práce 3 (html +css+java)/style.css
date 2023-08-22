@@ -1,5 +1,5 @@
 body {
-  background-image: url("/images/f-a-herold-summervillage-night.jpg");
+  background-image: url("images/f-a-herold-summervillage-night.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -99,7 +99,7 @@ header {
   width: 1080px;
   display: flex;
   flex-wrap: wrap;
-  background-image: url("/images/deska.jpg");
+  background-image: url("images/deska.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -312,7 +312,7 @@ footer {
     height: 100%;
     width: 100%;
     display: flex;
-    background-image: url("/images/deska.jpg");
+    background-image: url("images/deska.jpg");
     background-repeat: repeat-y;
     background-size: contain;
     z-index: -10;
@@ -398,7 +398,7 @@ footer {
     align-items: center;
 
     justify-content: center;
-    background-image: url("/images/deska.jpg");
+    background-image: url("images/deska.jpg");
     background-repeat: repeat-y;
     background-size: contain;
     background-position: center center;
