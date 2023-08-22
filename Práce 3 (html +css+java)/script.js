@@ -48,15 +48,15 @@ function changeBackground() {
 
   if (
     body.style.backgroundImage ===
-    'url("/images/f-a-herold-summervillage-day.jpg")'
+    'url("images/f-a-herold-summervillage-day.jpg")'
   ) {
     body.style.backgroundImage =
-      'url("/images/f-a-herold-summervillage-night.jpg")'
+      'url("images/f-a-herold-summervillage-night.jpg")'
     symbol.classList.remove("fa-sun")
     symbol.classList.add("fa-moon")
   } else {
     body.style.backgroundImage =
-      'url("/images/f-a-herold-summervillage-day.jpg")'
+      'url("images/f-a-herold-summervillage-day.jpg")'
     symbol.classList.remove("fa-moon")
     symbol.classList.add("fa-sun")
   }
