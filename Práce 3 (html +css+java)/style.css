@@ -1,0 +1,419 @@
+body {
+  background-image: url("/images/f-a-herold-summervillage-night.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.nadpis-obrazek {
+  text-align: center;
+}
+
+.nadpis-obrazek img {
+  max-width: 1080px;
+  max-height: 600px;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.main-container {
+  padding-top: 50px;
+  max-width: 1080px;
+  height: auto;
+  margin: auto;
+}
+
+#changeButton {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#symbol {
+  font-size: 30px;
+  color: rgb(253, 253, 1);
+}
+
+header {
+  background-color: rgba(88, 46, 15, 0.9);
+  height: 40px;
+  max-width: 1080px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  outline: 0px solid yellow;
+  font-size: 32px;
+}
+
+.items1 {
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  justify-content: center;
+  height: 40px;
+  max-width: 190px;
+  outline: 0px solid yellow;
+  color: white;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.items1:hover {
+  background-color: rgba(189, 88, 11, 0.9);
+}
+.items1-b {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  height: 40px;
+  max-width: 190px;
+  outline: 0px solid yellow;
+  color: white;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+.items1-a {
+  display: none;
+}
+.items1-b:hover {
+  background-color: rgba(189, 88, 11, 0.9);
+}
+
+#searchButton img {
+  width: 40px;
+}
+
+.section1 {
+  height: 800px;
+  width: 1080px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("/images/deska.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.image-container {
+  display: flex;
+}
+
+.items2 {
+  padding-top: 40px;
+  outline: 0px solid yellow;
+  flex: 1;
+  background-size: cover;
+  text-align: center;
+  transition: transform 0.3s;
+  height: 300px;
+  width: 300px;
+  color: white;
+  font-size: 36px;
+}
+
+.items3 {
+  outline: 0px solid yellow;
+  padding: 5%;
+  padding-top: 120px;
+  height: 270px;
+  font-size: 18px;
+  max-width: 23.32%;
+  color: #f2f2f2;
+}
+
+.items3-a {
+  display: none;
+  outline: 0px solid yellow;
+  padding: 5%;
+  padding-top: 120px;
+  height: 270px;
+  font-size: 18px;
+  max-width: 23.32%;
+  color: #f2f2f2;
+}
+
+.section1 img {
+  height: 300px;
+}
+
+.minibox:hover {
+  transform: scale(1.18);
+}
+.minibox {
+  transition: transform 0.3s;
+  justify-content: center;
+}
+
+.caption {
+  margin-top: 5px;
+}
+
+.section2 {
+  padding-top: 50px;
+  width: 1080px;
+  max-width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  font-size: 20px;
+}
+
+.background-image1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/table.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -2;
+}
+
+.form-section {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  z-index: 4;
+}
+
+.registration-header {
+  display: flex;
+  align-items: center;
+}
+
+.message {
+  margin-top: 2px;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: rgb(151, 108, 28);
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-wrapper input {
+  margin-right: 10px;
+}
+
+.validation-icon {
+  display: none;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.validation-icon.invalid {
+  background-color: red;
+}
+
+.input-wrapper.invalid .validation-icon {
+  display: inline-block;
+}
+
+.background-image2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 500px;
+  background-image: url(images/Pergamen.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+#backToTopButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 108px;
+  height: 60px;
+  background-color: transparent;
+  background-image: url("images/drak\ -\ zpět\ nahoru.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-indent: -9999px;
+  z-index: 99;
+  text-align: center;
+  line-height: 50px;
+  font-size: 12px;
+}
+
+#backToTopButton.show {
+  display: block;
+}
+
+/*
+-----------------------------------------------------------------------------------------------------
+*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  width: 1080px;
+  padding: 20px;
+  text-align: center;
+}
+
+/*
+-----------------------------------------------------------------------------------------------------
+*/
+@media (max-width: 1180px) {
+  .nadpis-obrazek img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 1180px) {
+  .main-container {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 1180px) {
+  .section1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-image: url("/images/deska.jpg");
+    background-repeat: repeat-y;
+    background-size: contain;
+    z-index: -10;
+  }
+
+  .items2 {
+    max-width: 50%;
+    height: 400px;
+    max-width: none;
+  }
+
+  .items3 {
+    display: none;
+  }
+
+  .items3-a {
+    display: flex;
+    height: auto;
+    max-width: 40%;
+    font-size: 20px;
+    padding-top: 55px;
+  }
+}
+@media (max-width: 1080px) {
+  .background-image1 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    position: absolute;
+  }
+}
+
+@media (max-width: 1080px) {
+  .form-section {
+    z-index: 4;
+  }
+}
+
+/*
+-----------------------------------------------------------------------------------------------------
+*/
+
+@media (max-width: 768px) {
+  .main-container {
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    justify-content: left;
+  }
+  .items1 {
+    display: none;
+  }
+
+  .items1-a {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    outline: 0px solid yellow;
+    color: white;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+
+  .items1-a:hover {
+    background-color: rgba(189, 88, 11, 0.9);
+  }
+}
+
+@media (max-width: 768px) {
+  .section1 {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    background-image: url("/images/deska.jpg");
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: center center;
+  }
+
+  .items2 {
+    max-width: 100%;
+    height: auto;
+    max-width: none;
+  }
+
+  .items3-a {
+    display: flex;
+    height: auto;
+    max-width: 500px;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Můj web</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <html lang="en">
+      <!-- Ondřej Sopek -->
+      <!-- ondrasopek@seznam.cz -->
+      <!-- Ondřej S. -->
+      <head>
+  <body>
+    <a href="#" id="backToTopButton" title="Zpět nahoru">
+      <img src="cesta_k_obrazku.png" alt="Zpět nahoru" />
+    </a>
+    
+    <div class="darklight">
+      <button id="changeButton" onclick="changeBackground()">
+        <i id="symbol" class="fas fa-moon"></i>
+      </button>
+    </div>
+
+    <div class="nadpis-obrazek">
+      <img src="images/nadpis.png" alt="Nadpis obrázek" />
+    </div>
+
+    <div class="main-container">
+      <header>
+        <div class="items1">Příběh</div>
+        <div class="items1">Pravidla</div>
+        <div class="items1">Povolání</div>
+        <div class="items1">Bestiář</div>
+        <div class="items1">Přihlásit se</div>
+        <div class="items1-a" id="searchButton">
+          <img src="images/librari.png" alt="Lupa" />
+        </div>
+          <div class="items1-b" id="searchButton">
+            <img src="images/lupa.png" alt="Lupa" />
+          </div>
+      </header>
+      <section class="section1">
+        <div class="items2">
+          <div class="minibox">
+            <img src="/images/Heroes.jpg" alt="Obrázek 1" />
+            <div class="caption">Hrdinové</div>
+          </div>
+        </div>
+        <div class="items3-a">
+          <p>
+            Hráči vstupují do světa, kde se zrození hrdinové skrývají za zdánlivě obyčejnými tvářemi. Skrze volbu se stávají rytíři či mágové, rozhodujíce o osudu říší. Sbírají zkušenosti, zlepšují dovednosti a taktiku, čelí zkouškám a zdolávají monstra. Přátelství a odvaha formují cestu k hrdinství, zanechávajíc stopu v epičnostech světa fantazie.
+          </p>
+        </div>
+        <div class="items2">
+          <div class="minibox">
+            <img src="/images/monsters.jpg" alt="Obrázek 2" />
+            <div class="caption">Nebezpečí</div>
+          </div>
+        </div>
+        <div class="items3-a">
+          <p>
+            V propasti stínů se hemží neznámá monstra. Temní démoni se plíží skrze mlhu, drak s plamenným dechem straší nad horizontem. Lesní víly zpívají tajemné písně, zatímco podzemní troglodyti čekají v hladině temných jeskyní. Země se chvěje od kroků obrů, a magická stvoření tančí v lunárním svitu, tvoříc nekonečný bestiář fantazie.
+          </p>
+        </div>
+        <div class="items2">
+          <div class="minibox">
+            <img src="/images/treasure.jpg" alt="Obrázek 3" />
+            <div class="caption">Dobrodružství</div>
+          </div>
+        </div>
+        <div class="items3-a">
+          <p>
+            V srdci ztraceného lesa, spící hory, či zapomenutých dolů se spočívá mnoho pokladů. Zlaté mince žhnou jako slunce, drahokamy svítí jako zvědavé oči. Mezi artefakty se třpytí zbraň s runami, spoutaná mocí. Vzduch nese vůni dobrodružství. Odvážný nálezce však musí čelit nástahám, neboď né vždy se nachází poklad bez ochrany.
+          </p>
+          
+        </div>
+        <div class="items3">
+          <p>
+            Hráči vstupují do světa, kde se zrození hrdinové skrývají za zdánlivě obyčejnými tvářemi. Skrze volbu se stávají rytíři či mágové, rozhodujíce o osudu říší. Sbírají zkušenosti, zlepšují dovednosti a taktiku, čelí zkouškám a zdolávají monstra. Přátelství a odvaha formují cestu k hrdinství, zanechávajíc stopu v epičnostech světa fantazie.
+          </p>
+        </div>
+        <div class="items3">
+          <p>
+            V propasti stínů se hemží neznámá monstra. Temní démoni se plíží skrze mlhu, drak s plamenným dechem straší nad horizontem. Lesní víly zpívají tajemné písně, zatímco podzemní troglodyti čekají v hladině temných jeskyní. Země se chvěje od kroků obrů, a magická stvoření tančí v lunárním svitu, tvoříc nekonečný bestiář fantazie.
+          </p>
+        </div>
+        <div class="items3">
+          <p>
+            V srdci ztraceného lesa, spící hory, či zapomenutých dolů se spočívá mnoho pokladů. Zlaté mince žhnou jako slunce, drahokamy svítí jako zvědavé oči. Mezi artefakty se třpytí zbraň s runami, spoutaná mocí. Vzduch nese vůni dobrodružství. Odvážný nálezce však musí čelit nástahám, neboď né vždy se nachází poklad bez ochrany.
+          </p>
+          <div class="space"></div>
+        </div>
+
+
+<section class="section2">
+
+  <div class="background-image1"></div>
+  <div class="form-section">
+    <div class="registration-header">
+      <p>Registrace nového účtu</p>
+    </div>
+    <div class="input-wrapper">
+      <input type="name" id="name" placeholder="Jméno">
+      <span class="validation-icon"></span>
+    </div>
+    <p id="nameMessage" class="message"></p>
+    <div class="input-wrapper">
+      <input type="email" id="email" placeholder="Email">
+      <span class="validation-icon"></span>
+    </div>
+    <p id="emailMessage" class="message"></p>
+    <div class="input-wrapper">
+      <input type="password" id="password1" placeholder="Heslo">
+      <span class="validation-icon"></span>
+    </div>
+    <p id="passwordMessage" class="message"></p>
+    <div class="input-wrapper">
+      <input type="password" id="password2" placeholder="Potvrzení hesla">
+      <span class="validation-icon"></span>
+    </div>
+    <p id="password2Message" class="message"></p>
+    <button onclick="validatePasswords()">Odeslat</button>
+    <p id="message" class="message"></p>
+  </div>
+  <div class="background-image2"></div>
+</section>
+
+
+      <footer>&copy; 2023 Můj web. Všechna práva vyhrazena.</footer>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
